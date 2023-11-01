@@ -6,10 +6,10 @@ file = openpyxl.load_workbook(source_path, read_only=True)
 sheet = file["Sheet1"]
 row = sheet.max_row
 
-nouns = [""]
-verbs = [""]
-choice_nouns = [""]
-choice_verbs = [""]
+nouns = []
+verbs = []
+choice_nouns = []
+choice_verbs = []
 
 
 def read_nouns():
