@@ -18,7 +18,6 @@ from tkinter import (
 
 
 def ice(n: list) -> int:
-    # return len(n)-1
     return randint(0, len(n)-1)
 
 
